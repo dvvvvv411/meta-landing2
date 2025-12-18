@@ -13,10 +13,10 @@ const ProductShowcase = () => {
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block text-sm font-medium text-primary mb-4">Dashboard</span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
-            Volle Kontrolle über Ihre Kampagnen
+            Full Control Over Your Campaigns
           </h2>
           <p className="text-lg text-muted-foreground">
-            Ein intuitives Dashboard mit allem, was Sie für erfolgreiches Advertising brauchen.
+            An intuitive dashboard with everything you need for successful advertising.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ const ProductShowcase = () => {
               <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center">
                 <PieChart className="w-5 h-5 text-accent" />
               </div>
-              <h3 className="font-display font-semibold text-foreground">Kampagnen Overview</h3>
+              <h3 className="font-display font-semibold text-foreground">Campaign Overview</h3>
             </div>
             <div className="space-y-3">
               <div className="flex items-center justify-between p-3 rounded-xl bg-background/50 border border-border/30">
@@ -55,14 +55,14 @@ const ProductShowcase = () => {
                   <div className="w-2 h-2 rounded-full bg-green-500" />
                   <span className="text-sm text-foreground">Summer Sale 2024</span>
                 </div>
-                <span className="text-xs text-green-500 font-medium">Aktiv</span>
+                <span className="text-xs text-green-500 font-medium">Active</span>
               </div>
               <div className="flex items-center justify-between p-3 rounded-xl bg-background/50 border border-border/30">
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 rounded-full bg-green-500" />
                   <span className="text-sm text-foreground">Brand Awareness</span>
                 </div>
-                <span className="text-xs text-green-500 font-medium">Aktiv</span>
+                <span className="text-xs text-green-500 font-medium">Active</span>
               </div>
               <div className="flex items-center justify-between p-3 rounded-xl bg-background/50 border border-border/30">
                 <div className="flex items-center gap-2">
@@ -84,7 +84,7 @@ const ProductShowcase = () => {
             </div>
             <div className="rounded-2xl bg-background/50 border border-border/30 p-4">
               <div className="aspect-video rounded-xl bg-gradient-to-br from-primary/20 to-accent/20 mb-3 flex items-center justify-center">
-                <span className="text-xs text-muted-foreground">Kreativ Preview</span>
+                <span className="text-xs text-muted-foreground">Creative Preview</span>
               </div>
               <div className="space-y-2">
                 <div className="h-3 w-3/4 rounded bg-border/50" />
@@ -104,11 +104,11 @@ const ProductShowcase = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <CheckCircle2 className="w-5 h-5 text-green-500" />
-                <span className="text-sm text-foreground">Verifizierungsstatus: Aktiv</span>
+                <span className="text-sm text-foreground">Verification Status: Active</span>
               </div>
               <div className="flex items-center gap-3">
                 <CheckCircle2 className="w-5 h-5 text-green-500" />
-                <span className="text-sm text-foreground">Spending Limit: Unbegrenzt</span>
+                <span className="text-sm text-foreground">Spending Limit: Unlimited</span>
               </div>
               <div className="flex items-center gap-3">
                 <CheckCircle2 className="w-5 h-5 text-green-500" />
@@ -116,7 +116,7 @@ const ProductShowcase = () => {
               </div>
               <div className="flex items-center gap-3">
                 <AlertCircle className="w-5 h-5 text-yellow-500" />
-                <span className="text-sm text-foreground">Guthaben: €2,450 verbleibend</span>
+                <span className="text-sm text-foreground">Balance: €2,450 remaining</span>
               </div>
             </div>
           </div>
@@ -127,20 +127,20 @@ const ProductShowcase = () => {
               <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center">
                 <Activity className="w-5 h-5 text-accent" />
               </div>
-              <h3 className="font-display font-semibold text-foreground">Live Metriken</h3>
+              <h3 className="font-display font-semibold text-foreground">Live Metrics</h3>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="p-4 rounded-xl bg-background/50 border border-border/30 text-center">
                 <p className="text-2xl font-display font-bold text-foreground">€12.4k</p>
-                <p className="text-xs text-muted-foreground">Heute ausgegeben</p>
+                <p className="text-xs text-muted-foreground">Spent Today</p>
               </div>
               <div className="p-4 rounded-xl bg-background/50 border border-border/30 text-center">
                 <p className="text-2xl font-display font-bold text-foreground">3.8x</p>
-                <p className="text-xs text-muted-foreground">Aktueller ROAS</p>
+                <p className="text-xs text-muted-foreground">Current ROAS</p>
               </div>
               <div className="p-4 rounded-xl bg-background/50 border border-border/30 text-center">
                 <p className="text-2xl font-display font-bold text-foreground">847</p>
-                <p className="text-xs text-muted-foreground">Conversions heute</p>
+                <p className="text-xs text-muted-foreground">Conversions Today</p>
               </div>
               <div className="p-4 rounded-xl bg-background/50 border border-border/30 text-center">
                 <p className="text-2xl font-display font-bold text-foreground">€14.62</p>

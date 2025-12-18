@@ -35,7 +35,8 @@ const Hero = () => {
             className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-white mb-6 opacity-0 animate-fade-up"
             style={{ animationDelay: "0.2s" }}
           >
-            Meta Agency Accounts{" "}
+            Meta Agency Accounts
+            <br />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary-glow to-accent">
               Ready to go.
             </span>
