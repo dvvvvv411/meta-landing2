@@ -3,23 +3,23 @@ import { TrendingUp, ShieldCheck, Award, Zap } from "lucide-react";
 const features = [
   {
     icon: TrendingUp,
-    title: "Skalierbare Limits",
-    description: "Höhere Spending Limits ohne künstliche Beschränkungen. Skalieren Sie Ihre Kampagnen nach Bedarf.",
+    title: "Scalable Limits",
+    description: "Higher spending limits without artificial restrictions. Scale your campaigns as needed.",
   },
   {
     icon: ShieldCheck,
-    title: "Geringes Sperrungsrisiko",
-    description: "Agency Trust Level minimiert Account-Sperren erheblich. Mehr Stabilität für Ihre Kampagnen.",
+    title: "Low Ban Risk",
+    description: "Agency Trust Level significantly reduces account bans. More stability for your campaigns.",
   },
   {
     icon: Award,
     title: "Meta Agency Trust Level",
-    description: "Premium-Verifizierung für maximale Stabilität und Vertrauen bei Meta.",
+    description: "Premium verification for maximum stability and trust with Meta.",
   },
   {
     icon: Zap,
-    title: "Automatisiertes Dashboard & API",
-    description: "Kampagnen-Management per intuitivem Dashboard oder programmatisch via API.",
+    title: "Automated Dashboard & API",
+    description: "Campaign management via intuitive dashboard or programmatically via API.",
   },
 ];
 
@@ -29,12 +29,12 @@ const Features = () => {
       <div className="container-tight">
         {/* Section header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-sm font-medium text-primary mb-4">Vorteile</span>
+          <span className="inline-block text-sm font-medium text-primary mb-4">Benefits</span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
-            Warum MetaNetwork?
+            Why MetaNetwork?
           </h2>
           <p className="text-lg text-muted-foreground">
-            Die Infrastruktur, die professionelle Advertiser für nachhaltiges Wachstum brauchen.
+            The infrastructure professional advertisers need for sustainable growth.
           </p>
         </div>
 

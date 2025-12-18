@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import MetaNetworkLogo from "@/assets/MetaNetwork_Logo.png";
 import Footer from "@/components/landing/Footer";
 
-const Impressum = () => {
+const LegalNotice = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -20,7 +20,7 @@ const Impressum = () => {
           <Button variant="ghost" size="sm" asChild>
             <Link to="/">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Zurück zur Startseite
+              Back to Homepage
             </Link>
           </Button>
         </div>
@@ -30,31 +30,31 @@ const Impressum = () => {
       <main className="container-tight py-16 md:py-24">
         <div className="max-w-2xl">
           <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-8">
-            Impressum
+            Legal Notice
           </h1>
 
           <div className="prose prose-slate max-w-none space-y-8">
-            {/* Anbieter */}
+            {/* Company Information */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4 flex items-center gap-2">
                 <Building2 className="h-5 w-5 text-primary" />
-                Angaben gemäß § 5 TMG
+                Information according to § 5 TMG
               </h2>
               <div className="bg-secondary/30 rounded-xl p-6 border border-border/50">
                 <p className="text-foreground font-semibold text-lg mb-2">Victu Agency GmbH</p>
                 <p className="text-muted-foreground">
                   Karlstr. 17<br />
                   60329 Frankfurt am Main<br />
-                  Deutschland
+                  Germany
                 </p>
               </div>
             </section>
 
-            {/* Kontakt */}
+            {/* Contact */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4 flex items-center gap-2">
                 <Mail className="h-5 w-5 text-primary" />
-                Kontakt
+                Contact
               </h2>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center gap-2">
@@ -72,39 +72,39 @@ const Impressum = () => {
               </div>
             </section>
 
-            {/* Handelsregister */}
+            {/* Trade Register */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                Handelsregister
+                Trade Register
               </h2>
               <div className="space-y-1 text-muted-foreground">
-                <p>Registergericht: Amtsgericht Frankfurt am Main</p>
-                <p>Registernummer: HRB 101048</p>
+                <p>Registry Court: District Court Frankfurt am Main</p>
+                <p>Registration Number: HRB 101048</p>
               </div>
             </section>
 
-            {/* Geschäftsführung */}
+            {/* Management */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                Geschäftsführung
+                Managing Director
               </h2>
               <p className="text-muted-foreground">Matthias Müller</p>
             </section>
 
-            {/* Umsatzsteuer */}
+            {/* VAT */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                Umsatzsteuer-Identifikationsnummer
+                VAT Identification Number
               </h2>
               <p className="text-muted-foreground">
-                USt-IdNr. gemäß § 27a Umsatzsteuergesetz: DE348860535
+                VAT ID according to § 27a of the German VAT Act: DE348860535
               </p>
             </section>
 
-            {/* Verantwortlich für Inhalt */}
+            {/* Content Responsibility */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
+                Responsible for Content according to § 55 para. 2 RStV
               </h2>
               <div className="text-muted-foreground">
                 <p>Matthias Müller</p>
@@ -113,13 +113,13 @@ const Impressum = () => {
               </div>
             </section>
 
-            {/* EU Streitschlichtung */}
+            {/* EU Dispute Resolution */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                EU-Streitschlichtung
+                EU Dispute Resolution
               </h2>
               <p className="text-muted-foreground">
-                Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:{" "}
+                The European Commission provides a platform for online dispute resolution (ODR):{" "}
                 <a 
                   href="https://ec.europa.eu/consumers/odr/" 
                   target="_blank" 
@@ -130,18 +130,18 @@ const Impressum = () => {
                 </a>
               </p>
               <p className="text-muted-foreground mt-2">
-                Unsere E-Mail-Adresse finden Sie oben im Impressum.
+                Our email address can be found above in the legal notice.
               </p>
             </section>
 
-            {/* Verbraucherstreitbeilegung */}
+            {/* Consumer Dispute Resolution */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                Verbraucherstreitbeilegung/Universalschlichtungsstelle
+                Consumer Dispute Resolution
               </h2>
               <p className="text-muted-foreground">
-                Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer 
-                Verbraucherschlichtungsstelle teilzunehmen.
+                We are not willing or obliged to participate in dispute resolution proceedings 
+                before a consumer arbitration board.
               </p>
             </section>
           </div>
@@ -153,4 +153,4 @@ const Impressum = () => {
   );
 };
 
-export default Impressum;
+export default LegalNotice;

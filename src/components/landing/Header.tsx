@@ -5,10 +5,10 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import MetaNetworkLogo from "@/assets/MetaNetwork_Logo.png";
 
 const navLinks = [
-  { href: "#how-it-works", label: "So funktioniert's" },
+  { href: "#how-it-works", label: "How It Works" },
   { href: "#dashboard", label: "Dashboard" },
-  { href: "#vorteile", label: "Vorteile" },
-  { href: "#pricing", label: "Preise" },
+  { href: "#benefits", label: "Benefits" },
+  { href: "#pricing", label: "Pricing" },
   { href: "#faq", label: "FAQ" },
 ];
 
@@ -31,7 +31,7 @@ const Header = () => {
             />
           </button>
           
-          {/* Mobile: Zentriertes Logo */}
+          {/* Mobile: Centered Logo */}
           <button 
             onClick={() => document.getElementById('hero')?.scrollIntoView({ behavior: 'smooth' })}
             className="md:hidden absolute left-1/2 -translate-x-1/2"
@@ -43,7 +43,7 @@ const Header = () => {
             />
           </button>
           
-          {/* Spacer für Mobile (für Balance) */}
+          {/* Spacer for Mobile (for balance) */}
           <div className="w-10 md:hidden" />
 
           {/* Desktop Navigation */}
@@ -68,7 +68,7 @@ const Header = () => {
             </Button>
             <Button variant="hero" size="sm" className="hidden sm:inline-flex group" asChild>
               <a href="https://web.metanetwork.agency" target="_blank" rel="noopener noreferrer">
-                Jetzt starten
+                Get Started
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
               </a>
             </Button>
@@ -116,7 +116,7 @@ const Header = () => {
                     </Button>
                     <Button variant="hero" className="w-full group" asChild>
                       <a href="https://web.metanetwork.agency" target="_blank" rel="noopener noreferrer">
-                        Jetzt starten
+                        Get Started
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                       </a>
                     </Button>

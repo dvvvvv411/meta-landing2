@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import MetaNetworkLogo from "@/assets/MetaNetwork_Logo.png";
 import Footer from "@/components/landing/Footer";
 
-const AGB = () => {
+const Terms = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -20,7 +20,7 @@ const AGB = () => {
           <Button variant="ghost" size="sm" asChild>
             <Link to="/">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Zurück zur Startseite
+              Back to Homepage
             </Link>
           </Button>
         </div>
@@ -34,180 +34,182 @@ const AGB = () => {
               <FileText className="h-6 w-6 text-primary" />
             </div>
             <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground">
-              Allgemeine Geschäftsbedingungen
+              Terms & Conditions
             </h1>
           </div>
 
           <div className="prose prose-slate max-w-none space-y-8 text-muted-foreground">
-            {/* Geltungsbereich */}
+            {/* Scope */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                § 1 Geltungsbereich
+                § 1 Scope of Application
               </h2>
               <p>
-                (1) Diese Allgemeinen Geschäftsbedingungen (nachfolgend "AGB") gelten für alle Verträge 
-                zwischen der Victu Agency GmbH, Karlstr. 17, 60329 Frankfurt am Main (nachfolgend "Anbieter") 
-                und dem Kunden (nachfolgend "Kunde") über die Nutzung der Plattform MetaNetwork.Agency.
+                (1) These General Terms and Conditions (hereinafter "GTC") apply to all contracts 
+                between Victu Agency GmbH, Karlstr. 17, 60329 Frankfurt am Main (hereinafter "Provider") 
+                and the customer (hereinafter "Customer") regarding the use of the MetaNetwork.Agency platform.
               </p>
               <p className="mt-2">
-                (2) Abweichende, entgegenstehende oder ergänzende AGB des Kunden werden nur dann 
-                Vertragsbestandteil, wenn und soweit der Anbieter ihrer Geltung ausdrücklich schriftlich 
-                zugestimmt hat.
+                (2) Deviating, conflicting, or supplementary GTC of the Customer shall only become part 
+                of the contract if and to the extent that the Provider has expressly agreed to their 
+                validity in writing.
               </p>
             </section>
 
-            {/* Leistungsbeschreibung */}
+            {/* Service Description */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                § 2 Leistungsbeschreibung
+                § 2 Service Description
               </h2>
               <p>
-                (1) Der Anbieter stellt dem Kunden über die Plattform MetaNetwork.Agency verifizierte 
-                Meta Agency Accounts zur Nutzung für Werbezwecke bereit.
+                (1) The Provider provides the Customer with verified Meta Agency Accounts for advertising 
+                purposes via the MetaNetwork.Agency platform.
               </p>
               <p className="mt-2">
-                (2) Der Kunde erhält Zugang zu einem automatisierten Dashboard zur Verwaltung seiner 
-                Werbekampagnen.
+                (2) The Customer receives access to an automated dashboard for managing their 
+                advertising campaigns.
               </p>
               <p className="mt-2">
-                (3) Der genaue Leistungsumfang ergibt sich aus der jeweils aktuellen Leistungsbeschreibung 
-                auf der Website des Anbieters.
+                (3) The exact scope of services is determined by the current service description 
+                on the Provider's website.
               </p>
             </section>
 
-            {/* Vertragsschluss */}
+            {/* Contract Formation */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                § 3 Vertragsschluss und Registrierung
+                § 3 Contract Formation and Registration
               </h2>
               <p>
-                (1) Die Darstellung der Leistungen auf der Website stellt kein rechtlich bindendes Angebot, 
-                sondern eine Aufforderung zur Abgabe eines Angebots dar.
+                (1) The presentation of services on the website does not constitute a legally binding 
+                offer, but rather an invitation to submit an offer.
               </p>
               <p className="mt-2">
-                (2) Durch die Registrierung auf der Plattform gibt der Kunde ein verbindliches Angebot zum 
-                Abschluss eines Nutzungsvertrages ab.
+                (2) By registering on the platform, the Customer submits a binding offer to 
+                conclude a usage agreement.
               </p>
               <p className="mt-2">
-                (3) Der Vertrag kommt zustande, wenn der Anbieter die Registrierung bestätigt und den 
-                Zugang freischaltet.
+                (3) The contract is concluded when the Provider confirms registration and 
+                activates access.
               </p>
             </section>
 
-            {/* Preise und Zahlung */}
+            {/* Prices and Payment */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                § 4 Preise und Zahlungsbedingungen
+                § 4 Prices and Payment Terms
               </h2>
               <p>
-                (1) Es gelten die zum Zeitpunkt der Bestellung auf der Website angegebenen Preise. Alle 
-                Preise verstehen sich zzgl. der gesetzlichen Mehrwertsteuer.
+                (1) The prices stated on the website at the time of ordering apply. All 
+                prices are net prices plus statutory VAT.
               </p>
               <p className="mt-2">
-                (2) Die monatliche Grundgebühr beträgt 150 € netto. Zusätzlich fällt eine Auflade-Gebühr 
-                von 2% auf alle Werbebudget-Aufladungen an.
+                (2) The monthly base fee is €150 net. Additionally, a top-up fee of 
+                2% applies to all advertising budget top-ups.
               </p>
               <p className="mt-2">
-                (3) Die Zahlung erfolgt per Lastschrift, Kreditkarte oder auf Rechnung.
+                (3) Payment is made by direct debit, credit card, or invoice.
               </p>
               <p className="mt-2">
-                (4) Rechnungen sind innerhalb von 14 Tagen nach Rechnungsdatum zur Zahlung fällig.
+                (4) Invoices are due for payment within 14 days of the invoice date.
               </p>
             </section>
 
-            {/* Pflichten des Kunden */}
+            {/* Customer Obligations */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                § 5 Pflichten des Kunden
+                § 5 Customer Obligations
               </h2>
               <p>
-                (1) Der Kunde verpflichtet sich, die Plattform nur für legale Werbezwecke zu nutzen und 
-                die Werberichtlinien von Meta einzuhalten.
+                (1) The Customer undertakes to use the platform only for legal advertising purposes and 
+                to comply with Meta's advertising guidelines.
               </p>
               <p className="mt-2">
-                (2) Der Kunde ist für die Inhalte seiner Werbekampagnen selbst verantwortlich.
+                (2) The Customer is responsible for the content of their advertising campaigns.
               </p>
               <p className="mt-2">
-                (3) Der Kunde hat seine Zugangsdaten geheim zu halten und vor dem Zugriff Dritter zu schützen.
+                (3) The Customer must keep their access credentials confidential and protect them from 
+                access by third parties.
               </p>
               <p className="mt-2">
-                (4) Der Kunde hat dem Anbieter Änderungen seiner Kontaktdaten unverzüglich mitzuteilen.
+                (4) The Customer must notify the Provider immediately of any changes to their contact details.
               </p>
             </section>
 
-            {/* Haftung */}
+            {/* Liability */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                § 6 Haftung
+                § 6 Liability
               </h2>
               <p>
-                (1) Der Anbieter haftet unbeschränkt für Schäden aus der Verletzung des Lebens, des 
-                Körpers oder der Gesundheit sowie für vorsätzlich oder grob fahrlässig verursachte Schäden.
+                (1) The Provider is liable without limitation for damages arising from injury to life, 
+                body, or health, as well as for damages caused intentionally or through gross negligence.
               </p>
               <p className="mt-2">
-                (2) Für leicht fahrlässig verursachte Schäden haftet der Anbieter nur bei Verletzung 
-                wesentlicher Vertragspflichten. Die Haftung ist auf den vertragstypischen, vorhersehbaren 
-                Schaden begrenzt.
+                (2) For damages caused by slight negligence, the Provider is only liable in the event of 
+                breach of material contractual obligations. Liability is limited to typical, foreseeable 
+                damage.
               </p>
               <p className="mt-2">
-                (3) Der Anbieter haftet nicht für Schäden, die durch Sperrungen oder Einschränkungen 
-                seitens Meta entstehen.
+                (3) The Provider is not liable for damages resulting from bans or restrictions 
+                imposed by Meta.
               </p>
             </section>
 
-            {/* Vertragslaufzeit */}
+            {/* Contract Duration */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                § 7 Vertragslaufzeit und Kündigung
+                § 7 Contract Duration and Termination
               </h2>
               <p>
-                (1) Der Vertrag läuft auf unbestimmte Zeit und kann von beiden Parteien mit einer Frist 
-                von 30 Tagen zum Monatsende gekündigt werden.
+                (1) The contract runs for an indefinite period and can be terminated by either party 
+                with 30 days' notice to the end of the month.
               </p>
               <p className="mt-2">
-                (2) Das Recht zur außerordentlichen Kündigung aus wichtigem Grund bleibt unberührt.
+                (2) The right to extraordinary termination for good cause remains unaffected.
               </p>
               <p className="mt-2">
-                (3) Die Kündigung bedarf der Textform (E-Mail genügt).
+                (3) Termination requires text form (email is sufficient).
               </p>
             </section>
 
-            {/* Datenschutz */}
+            {/* Data Protection */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                § 8 Datenschutz
+                § 8 Data Protection
               </h2>
               <p>
-                Informationen zur Verarbeitung personenbezogener Daten finden Sie in unserer{" "}
-                <Link to="/datenschutz" className="text-primary hover:underline">
-                  Datenschutzerklärung
+                Information on the processing of personal data can be found in our{" "}
+                <Link to="/privacy" className="text-primary hover:underline">
+                  Privacy Policy
                 </Link>.
               </p>
             </section>
 
-            {/* Schlussbestimmungen */}
+            {/* Final Provisions */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                § 9 Schlussbestimmungen
+                § 9 Final Provisions
               </h2>
               <p>
-                (1) Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts.
+                (1) The law of the Federal Republic of Germany applies, excluding the UN Convention 
+                on Contracts for the International Sale of Goods.
               </p>
               <p className="mt-2">
-                (2) Gerichtsstand für alle Streitigkeiten aus diesem Vertrag ist Frankfurt am Main, 
-                sofern der Kunde Kaufmann, juristische Person des öffentlichen Rechts oder 
-                öffentlich-rechtliches Sondervermögen ist.
+                (2) The place of jurisdiction for all disputes arising from this contract is Frankfurt am Main, 
+                provided that the Customer is a merchant, legal entity under public law, or 
+                special fund under public law.
               </p>
               <p className="mt-2">
-                (3) Sollten einzelne Bestimmungen dieser AGB unwirksam sein oder werden, bleibt die 
-                Wirksamkeit der übrigen Bestimmungen unberührt.
+                (3) Should individual provisions of these GTC be or become invalid, the 
+                validity of the remaining provisions shall remain unaffected.
               </p>
             </section>
 
-            {/* Stand */}
+            {/* Version */}
             <section className="pt-4 border-t border-border/50">
               <p className="text-sm">
-                <strong>Stand:</strong> Dezember 2024
+                <strong>Last updated:</strong> December 2024
               </p>
             </section>
           </div>
@@ -219,4 +221,4 @@ const AGB = () => {
   );
 };
 
-export default AGB;
+export default Terms;

@@ -4,23 +4,23 @@ import { ArrowRight, Shield, TrendingUp, Cpu, BadgeCheck } from "lucide-react";
 const valueFeatures = [
   {
     icon: Shield,
-    title: "Verifizierter Meta Agency Account",
-    description: "Bereits geprüft und einsatzbereit"
+    title: "Verified Meta Agency Account",
+    description: "Already verified and ready to use"
   },
   {
     icon: TrendingUp,
-    title: "Unbegrenzte Spending Limits",
-    description: "Skalieren Sie ohne Einschränkungen"
+    title: "Unlimited Spending Limits",
+    description: "Scale without restrictions"
   },
   {
     icon: Cpu,
-    title: "Automatisiertes Dashboard & API",
-    description: "Volle Kontrolle über Ihre Kampagnen"
+    title: "Automated Dashboard & API",
+    description: "Full control over your campaigns"
   },
   {
     icon: BadgeCheck,
     title: "Meta Agency Trust Level",
-    description: "Höchste Vertrauensstufe für Ihre Ads"
+    description: "Highest trust level for your ads"
   },
 ];
 
@@ -36,13 +36,13 @@ const Pricing = () => {
         {/* Section header */}
         <div className="text-center max-w-2xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-sm text-primary mb-4">
-            Preis
+            Pricing
           </div>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 text-balance">
-            Alles, was Sie brauchen. Ein fairer Preis.
+            Everything you need. One fair price.
           </h2>
           <p className="text-lg text-muted-foreground">
-            Keine versteckten Kosten. Keine Überraschungen.
+            No hidden costs. No surprises.
           </p>
         </div>
 
@@ -58,7 +58,7 @@ const Pricing = () => {
                 {/* Left: Value Features */}
                 <div>
                   <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6">
-                    Was Sie bekommen
+                    What You Get
                   </h3>
                   <div className="space-y-5">
                     {valueFeatures.map((feature) => (
@@ -78,14 +78,14 @@ const Pricing = () => {
                 {/* Right: Pricing & CTA */}
                 <div className="flex flex-col">
                   <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6">
-                    Preis
+                    Price
                   </h3>
                   
                   {/* Price */}
                   <div className="mb-6">
                     <div className="flex items-baseline gap-2">
-                      <span className="font-display text-5xl lg:text-6xl font-bold text-foreground">150€</span>
-                      <span className="text-xl text-muted-foreground">/Monat</span>
+                      <span className="font-display text-5xl lg:text-6xl font-bold text-foreground">€150</span>
+                      <span className="text-xl text-muted-foreground">/month</span>
                     </div>
                     <p className="text-muted-foreground mt-2">
                       + <span className="font-semibold text-foreground">2%</span> Top-Up Fee
@@ -95,13 +95,13 @@ const Pricing = () => {
                   {/* CTA Button */}
                   <Button variant="hero" size="xl" className="w-full group mb-4" asChild>
                     <a href="https://web.metanetwork.agency" target="_blank" rel="noopener noreferrer">
-                      Jetzt registrieren
+                      Register Now
                       <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                     </a>
                   </Button>
 
                   <p className="text-center text-sm text-muted-foreground">
-                    Volle Flexibilität. Monatlich kündbar.
+                    Full flexibility. Cancel monthly.
                   </p>
                 </div>
               </div>
