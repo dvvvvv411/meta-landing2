@@ -61,7 +61,7 @@ const Footer = ({ hideCTA = false }: FooterProps) => {
                 className="group"
                 asChild
               >
-                <a href="https://web.metanetwork.agency" target="_blank" rel="noopener noreferrer">
+                <a href="https://web.metanetworkagency.com" target="_blank" rel="noopener noreferrer">
                   Register for free
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </a>
@@ -97,7 +97,7 @@ const Footer = ({ hideCTA = false }: FooterProps) => {
               <Link to="/" className="flex items-center mb-4">
                 <img 
                   src={MetaNetworkLogo} 
-                  alt="MetaNetwork.Agency" 
+                  alt="metanetworkagency.com" 
                   className="h-8 w-auto"
                 />
               </Link>
@@ -170,7 +170,7 @@ const Footer = ({ hideCTA = false }: FooterProps) => {
           <div className="container-tight py-6">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
               <p className="text-sm text-muted-foreground">
-                © {new Date().getFullYear()} MetaNetwork.Agency. All rights reserved.
+                © {new Date().getFullYear()} metanetworkagency.com. All rights reserved.
               </p>
               
               {/* Status Indicator */}

@@ -13,7 +13,7 @@ const Privacy = () => {
           <Link to="/" className="flex items-center">
             <img 
               src={MetaNetworkLogo} 
-              alt="MetaNetwork.Agency" 
+              alt="metanetworkagency.com" 
               className="h-8 w-auto"
             />
           </Link>
@@ -61,7 +61,7 @@ const Privacy = () => {
                 <p className="font-semibold text-foreground">Victu Agency GmbH</p>
                 <p>Karlstr. 17</p>
                 <p>60329 Frankfurt am Main</p>
-                <p className="mt-2">Email: info@metanetwork.agency</p>
+                <p className="mt-2">Email: info@metanetworkagency.com</p>
               </div>
               <p className="mt-4">
                 The data controller is the natural or legal person who alone or jointly with others 

@@ -31,7 +31,7 @@ const Features = () => {
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block text-sm font-medium text-primary mb-4">Benefits</span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
-            Why MetaNetwork?
+            Why metanetworkagency.com?
           </h2>
           <p className="text-lg text-muted-foreground">
             The infrastructure professional advertisers need for sustainable growth.
