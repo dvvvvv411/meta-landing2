@@ -5,21 +5,21 @@ import MetaNetworkLogo from "@/assets/MetaNetwork_Logo.png";
 
 const footerLinks = {
   navigation: [
-    { label: "So funktioniert's", href: "#how-it-works" },
+    { label: "How It Works", href: "#how-it-works" },
     { label: "Dashboard", href: "#dashboard" },
-    { label: "Vorteile", href: "#vorteile" },
-    { label: "Preise", href: "#pricing" },
+    { label: "Benefits", href: "#benefits" },
+    { label: "Pricing", href: "#pricing" },
     { label: "FAQ", href: "#faq" },
   ],
   company: [
     { label: "Blog", href: "#" },
-    { label: "Karriere", href: "#" },
-    { label: "Kontakt", href: "#" },
+    { label: "Careers", href: "#" },
+    { label: "Contact", href: "#" },
   ],
   legal: [
-    { label: "Datenschutz", href: "/datenschutz" },
-    { label: "AGB", href: "/agb" },
-    { label: "Impressum", href: "/impressum" },
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Terms & Conditions", href: "/terms" },
+    { label: "Legal Notice", href: "/legal-notice" },
   ],
 };
 
@@ -49,10 +49,10 @@ const Footer = ({ hideCTA = false }: FooterProps) => {
             <div className="relative z-10 text-center">
               {/* Headline */}
               <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-2">
-                Bereit durchzustarten?
+                Ready to get started?
               </h3>
               <p className="text-muted-foreground text-sm md:text-base max-w-lg mx-auto mb-5">
-                Erstelle jetzt deinen Account und starte in wenigen Minuten mit skalierbarem Meta Advertising.
+                Create your account now and start with scalable Meta Advertising in just a few minutes.
               </p>
               
               {/* CTA Button */}
@@ -62,7 +62,7 @@ const Footer = ({ hideCTA = false }: FooterProps) => {
                 asChild
               >
                 <a href="https://web.metanetwork.agency" target="_blank" rel="noopener noreferrer">
-                  Jetzt kostenlos registrieren
+                  Register for free
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
@@ -71,11 +71,11 @@ const Footer = ({ hideCTA = false }: FooterProps) => {
               <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6 mt-5 text-muted-foreground text-xs md:text-sm">
                 <span className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-3.5 h-3.5 text-green-500" />
-                  Sofort startklar
+                  Ready instantly
                 </span>
                 <span className="flex items-center gap-1.5">
                   <Shield className="w-3.5 h-3.5 text-primary" />
-                  DSGVO-konform
+                  GDPR compliant
                 </span>
                 <span className="flex items-center gap-1.5">
                   <Zap className="w-3.5 h-3.5 text-accent" />
@@ -102,7 +102,7 @@ const Footer = ({ hideCTA = false }: FooterProps) => {
                 />
               </Link>
               <p className="text-sm text-muted-foreground max-w-xs leading-relaxed">
-                Premium Meta Ads Accounts für professionelles Performance Marketing. Sicher, skalierbar, sofort einsatzbereit.
+                Premium Meta Ads Accounts for professional performance marketing. Secure, scalable, ready to use instantly.
               </p>
             </div>
 
@@ -128,7 +128,7 @@ const Footer = ({ hideCTA = false }: FooterProps) => {
             {/* Company */}
             <div>
               <h4 className="font-display font-semibold text-foreground mb-4 text-sm uppercase tracking-wider">
-                Unternehmen
+                Company
               </h4>
               <ul className="space-y-3">
                 {footerLinks.company.map((link) => (
@@ -147,7 +147,7 @@ const Footer = ({ hideCTA = false }: FooterProps) => {
             {/* Legal */}
             <div>
               <h4 className="font-display font-semibold text-foreground mb-4 text-sm uppercase tracking-wider">
-                Rechtliches
+                Legal
               </h4>
               <ul className="space-y-3">
                 {footerLinks.legal.map((link) => (
@@ -170,7 +170,7 @@ const Footer = ({ hideCTA = false }: FooterProps) => {
           <div className="container-tight py-6">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
               <p className="text-sm text-muted-foreground">
-                © {new Date().getFullYear()} MetaNetwork.Agency. Alle Rechte vorbehalten.
+                © {new Date().getFullYear()} MetaNetwork.Agency. All rights reserved.
               </p>
               
               {/* Status Indicator */}
@@ -183,7 +183,7 @@ const Footer = ({ hideCTA = false }: FooterProps) => {
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
                 </span>
                 <span className="group-hover:text-foreground transition-colors">
-                  Alle Systeme operativ
+                  All systems operational
                 </span>
               </a>
             </div>

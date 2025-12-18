@@ -27,7 +27,7 @@ const Hero = () => {
               style={{ animationDelay: "0.1s" }}
             >
               <Zap className="w-4 h-4 text-primary" />
-              <span className="text-sm font-medium text-slate-300">Infrastruktur für Meta Ads</span>
+              <span className="text-sm font-medium text-slate-300">Infrastructure for Meta Ads</span>
             </div>
 
             {/* Headline */}
@@ -37,7 +37,7 @@ const Hero = () => {
           >
             Meta Agency Accounts{" "}
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary-glow to-accent">
-              Sofort einsatzbereit.
+              Ready to go.
             </span>
           </h1>
 
@@ -46,7 +46,7 @@ const Hero = () => {
               className="text-lg md:text-xl text-slate-400 max-w-xl mx-auto lg:mx-0 mb-8 opacity-0 animate-fade-up text-balance"
               style={{ animationDelay: "0.3s" }}
             >
-              Miete geprüfte Meta Agency Accounts und erstelle Kampagnen direkt in unserem Dashboard — automatisiert, skalierbar und sofort einsatzbereit.
+              Rent verified Meta Agency Accounts and create campaigns directly in our dashboard — automated, scalable, and ready to use instantly.
             </p>
 
             {/* Bullet Points */}
@@ -55,9 +55,9 @@ const Hero = () => {
               style={{ animationDelay: "0.4s" }}
             >
               {[
-                "Skalierbare Limits",
-                "Stabil & risikoarm",
-                "Automatisiertes Dashboard"
+                "Scalable Limits",
+                "Stable & Low Risk",
+                "Automated Dashboard"
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-2">
                   <div className="w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center neon-glow-blue-subtle">
@@ -78,7 +78,7 @@ const Hero = () => {
                   onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
                   className="relative flex items-center justify-center gap-2 w-full h-12 sm:h-14 md:h-16 px-6 sm:px-8 md:px-10 bg-slate-950/80 backdrop-blur-sm hover:bg-slate-950/60 text-white text-base sm:text-lg font-semibold rounded-2xl transition-all"
                 >
-                  Preise sehen
+                  See Pricing
                   <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
                 </button>
               </div>
@@ -88,7 +88,7 @@ const Hero = () => {
                 onClick={() => document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' })}
                 className="border-slate-700 bg-slate-800/30 text-slate-300 hover:bg-slate-800/50 hover:text-white hover:border-slate-600"
               >
-                Mehr erfahren
+                Learn More
               </Button>
             </div>
           </div>
@@ -124,7 +124,7 @@ const Hero = () => {
                     <div className="flex items-center justify-between p-3 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 mb-4">
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                        <span className="text-xs text-slate-300">Account Status: <span className="text-green-400 font-medium">Verifiziert</span></span>
+                        <span className="text-xs text-slate-300">Account Status: <span className="text-green-400 font-medium">Verified</span></span>
                       </div>
                       <span className="text-xs text-slate-500">Agency ID: MN-4821</span>
                     </div>
@@ -154,18 +154,18 @@ const Hero = () => {
                     {/* Performance Chart - Hidden on very small screens */}
                     <div className="hidden sm:block p-3 sm:p-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 mb-3 sm:mb-4">
                       <div className="flex items-center justify-between mb-2 sm:mb-3">
-                        <span className="text-[10px] sm:text-xs font-medium text-slate-400">Performance (7 Tage)</span>
-                        <span className="text-[9px] sm:text-[10px] text-slate-500">€67,420 Gesamt</span>
+                        <span className="text-[10px] sm:text-xs font-medium text-slate-400">Performance (7 Days)</span>
+                        <span className="text-[9px] sm:text-[10px] text-slate-500">€67,420 Total</span>
                       </div>
                       <div className="h-16 sm:h-24 flex items-end justify-between gap-1 sm:gap-2">
                         {[
-                          { height: 45, day: "Mo" },
-                          { height: 72, day: "Di" },
-                          { height: 58, day: "Mi" },
-                          { height: 85, day: "Do" },
-                          { height: 65, day: "Fr" },
-                          { height: 92, day: "Sa" },
-                          { height: 78, day: "So" },
+                          { height: 45, day: "Mon" },
+                          { height: 72, day: "Tue" },
+                          { height: 58, day: "Wed" },
+                          { height: 85, day: "Thu" },
+                          { height: 65, day: "Fri" },
+                          { height: 92, day: "Sat" },
+                          { height: 78, day: "Sun" },
                         ].map((bar, i) => (
                           <div key={i} className="flex-1 flex flex-col items-center gap-1 h-full">
                             <div className="flex-1 w-full flex items-end">
@@ -187,7 +187,7 @@ const Hero = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 mb-3 sm:mb-4">
                       {/* Active Campaigns */}
                       <div className="p-2 sm:p-3 rounded-lg sm:rounded-xl bg-white/5 backdrop-blur-sm border border-white/10">
-                        <p className="text-[9px] sm:text-[10px] text-slate-500 uppercase tracking-wider mb-1.5 sm:mb-2">Aktive Kampagnen</p>
+                        <p className="text-[9px] sm:text-[10px] text-slate-500 uppercase tracking-wider mb-1.5 sm:mb-2">Active Campaigns</p>
                         <div className="space-y-1.5 sm:space-y-2">
                           {[
                             { name: "Campaign Alpha", status: "green" },
@@ -203,11 +203,11 @@ const Hero = () => {
 
                       {/* Recent Activity */}
                       <div className="p-2 sm:p-3 rounded-lg sm:rounded-xl bg-white/5 backdrop-blur-sm border border-white/10">
-                        <p className="text-[9px] sm:text-[10px] text-slate-500 uppercase tracking-wider mb-1.5 sm:mb-2">Letzte Aktivität</p>
+                        <p className="text-[9px] sm:text-[10px] text-slate-500 uppercase tracking-wider mb-1.5 sm:mb-2">Recent Activity</p>
                         <div className="space-y-1.5 sm:space-y-2">
                           {[
-                            { action: "Budget erhöht", time: "vor 2m" },
-                            { action: "Neue Ad erstellt", time: "vor 15m" },
+                            { action: "Budget increased", time: "2m ago" },
+                            { action: "New ad created", time: "15m ago" },
                           ].map((activity, i) => (
                             <div key={i} className="flex items-center justify-between">
                               <div className="flex items-center gap-1">

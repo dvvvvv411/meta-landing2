@@ -4,20 +4,20 @@ const steps = [
   {
     icon: UserPlus,
     step: "01",
-    title: "Registrieren",
-    description: "Erstellen Sie in wenigen Minuten Ihren Account — vollautomatisch und ohne Support-Kontakt.",
+    title: "Register",
+    description: "Create your account in just a few minutes — fully automated with no support contact required.",
   },
   {
     icon: Wallet,
     step: "02",
-    title: "Account mieten & Guthaben hinterlegen",
-    description: "Wählen Sie Ihren Plan und laden Sie Ihr Werbebudget sicher auf.",
+    title: "Rent Account & Add Funds",
+    description: "Choose your plan and securely deposit your advertising budget.",
   },
   {
     icon: Rocket,
     step: "03",
-    title: "Kampagnen live schalten",
-    description: "Starten Sie sofort mit Ihren Meta Ads — Ihr Account ist bereit.",
+    title: "Launch Campaigns",
+    description: "Start running your Meta Ads immediately — your account is ready to go.",
   },
 ];
 
@@ -33,12 +33,12 @@ const HowItWorks = () => {
       <div className="container-tight relative z-10">
         {/* Section header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-sm font-medium text-primary mb-4">So funktioniert's</span>
+          <span className="inline-block text-sm font-medium text-primary mb-4">How It Works</span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
-            In 3 Schritten live
+            Go Live in 3 Steps
           </h2>
           <p className="text-lg text-muted-foreground">
-            Unser automatisierter Onboarding-Prozess bringt Sie schnell ans Ziel.
+            Our automated onboarding process gets you up and running quickly.
           </p>
         </div>
 

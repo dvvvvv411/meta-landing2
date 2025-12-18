@@ -3,13 +3,13 @@ import { Check, X } from "lucide-react";
 const features = [
   {
     name: "Spending Limits",
-    normal: "Begrenzt & variabel",
-    metanetwork: "Unbegrenzt skalierbar",
+    normal: "Limited & variable",
+    metanetwork: "Unlimited scalability",
   },
   {
-    name: "Sperrungsrisiko",
-    normal: "Hoch bei schneller Skalierung",
-    metanetwork: "Minimal durch Agency Trust",
+    name: "Ban Risk",
+    normal: "High with rapid scaling",
+    metanetwork: "Minimal through Agency Trust",
   },
   {
     name: "Trust Level",
@@ -19,32 +19,32 @@ const features = [
   {
     name: "Support",
     normal: "Standard Meta Support",
-    metanetwork: "Priorisierter Experten-Support",
+    metanetwork: "Priority Expert Support",
   },
   {
-    name: "Verifizierung",
-    normal: "Persönliche Dokumente nötig",
-    metanetwork: "Keine eigene Verifizierung",
+    name: "Verification",
+    normal: "Personal documents required",
+    metanetwork: "No personal verification needed",
   },
   {
-    name: "Skalierbarkeit",
-    normal: "Eingeschränkt",
-    metanetwork: "Sofort & unbegrenzt",
+    name: "Scalability",
+    normal: "Restricted",
+    metanetwork: "Instant & unlimited",
   },
 ];
 
 const Comparison = () => {
   return (
-    <section id="vorteile" className="section-padding bg-secondary/30 relative overflow-hidden">
+    <section id="benefits" className="section-padding bg-secondary/30 relative overflow-hidden">
       <div className="container-tight relative z-10">
         {/* Section header */}
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <span className="inline-block text-sm font-medium text-primary mb-4">Vergleich</span>
+          <span className="inline-block text-sm font-medium text-primary mb-4">Comparison</span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
-            Der Unterschied macht's
+            The Difference Matters
           </h2>
           <p className="text-lg text-muted-foreground">
-            Sehen Sie, warum MetaNetwork Agency Accounts Ihrem Standard-Account überlegen sind.
+            See why MetaNetwork Agency Accounts outperform your standard account.
           </p>
         </div>
 
@@ -53,7 +53,7 @@ const Comparison = () => {
           {/* Table Header */}
           <div className="hidden md:grid grid-cols-3 gap-4 pb-4 border-b border-border/50 mb-4">
             <div className="text-sm font-semibold text-muted-foreground">Feature</div>
-            <div className="text-sm font-semibold text-muted-foreground text-center">Normaler Account</div>
+            <div className="text-sm font-semibold text-muted-foreground text-center">Normal Account</div>
             <div className="text-sm font-semibold text-primary text-center">MetaNetwork</div>
           </div>
 
@@ -85,7 +85,7 @@ const Comparison = () => {
                 <div className="flex items-start gap-2 text-muted-foreground/70">
                   <X className="w-4 h-4 text-destructive/70 flex-shrink-0 mt-0.5" />
                   <div>
-                    <span className="text-xs text-muted-foreground block mb-0.5">Normaler Account</span>
+                    <span className="text-xs text-muted-foreground block mb-0.5">Normal Account</span>
                     <span className="text-sm">{feature.normal}</span>
                   </div>
                 </div>

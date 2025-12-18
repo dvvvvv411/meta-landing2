@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import MetaNetworkLogo from "@/assets/MetaNetwork_Logo.png";
 import Footer from "@/components/landing/Footer";
 
-const Datenschutz = () => {
+const Privacy = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -20,7 +20,7 @@ const Datenschutz = () => {
           <Button variant="ghost" size="sm" asChild>
             <Link to="/">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Zurück zur Startseite
+              Back to Homepage
             </Link>
           </Button>
         </div>
@@ -34,69 +34,69 @@ const Datenschutz = () => {
               <Shield className="h-6 w-6 text-primary" />
             </div>
             <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground">
-              Datenschutzerklärung
+              Privacy Policy
             </h1>
           </div>
 
           <div className="prose prose-slate max-w-none space-y-8 text-muted-foreground">
-            {/* Einleitung */}
+            {/* Overview */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                1. Datenschutz auf einen Blick
+                1. Privacy at a Glance
               </h2>
-              <h3 className="font-semibold text-foreground mt-4 mb-2">Allgemeine Hinweise</h3>
+              <h3 className="font-semibold text-foreground mt-4 mb-2">General Information</h3>
               <p>
-                Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen 
-                Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit 
-                denen Sie persönlich identifiziert werden können.
+                The following information provides a simple overview of what happens to your personal 
+                data when you visit this website. Personal data is any data that can be used to 
+                personally identify you.
               </p>
             </section>
 
-            {/* Verantwortlicher */}
+            {/* Controller */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                2. Verantwortlicher
+                2. Data Controller
               </h2>
               <div className="bg-secondary/30 rounded-xl p-6 border border-border/50">
                 <p className="font-semibold text-foreground">Victu Agency GmbH</p>
                 <p>Karlstr. 17</p>
                 <p>60329 Frankfurt am Main</p>
-                <p className="mt-2">E-Mail: info@metanetwork.agency</p>
+                <p className="mt-2">Email: info@metanetwork.agency</p>
               </div>
               <p className="mt-4">
-                Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam 
-                mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.
+                The data controller is the natural or legal person who alone or jointly with others 
+                decides on the purposes and means of processing personal data.
               </p>
             </section>
 
-            {/* Datenerfassung */}
+            {/* Data Collection */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                3. Datenerfassung auf dieser Website
+                3. Data Collection on This Website
               </h2>
               
-              <h3 className="font-semibold text-foreground mt-4 mb-2">Server-Log-Dateien</h3>
+              <h3 className="font-semibold text-foreground mt-4 mb-2">Server Log Files</h3>
               <p>
-                Der Provider dieser Seiten erhebt und speichert automatisch Informationen in so genannten 
-                Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:
+                The provider of these pages automatically collects and stores information in so-called 
+                server log files, which your browser automatically transmits to us. These are:
               </p>
               <ul className="list-disc pl-6 mt-2 space-y-1">
-                <li>Browsertyp und Browserversion</li>
-                <li>Verwendetes Betriebssystem</li>
+                <li>Browser type and version</li>
+                <li>Operating system used</li>
                 <li>Referrer URL</li>
-                <li>Hostname des zugreifenden Rechners</li>
-                <li>Uhrzeit der Serveranfrage</li>
-                <li>IP-Adresse</li>
+                <li>Hostname of the accessing computer</li>
+                <li>Time of server request</li>
+                <li>IP address</li>
               </ul>
               <p className="mt-2">
-                Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.
+                This data is not merged with other data sources.
               </p>
 
-              <h3 className="font-semibold text-foreground mt-6 mb-2">Kontaktformular / E-Mail-Kontakt</h3>
+              <h3 className="font-semibold text-foreground mt-6 mb-2">Contact Form / Email Contact</h3>
               <p>
-                Wenn Sie uns per E-Mail kontaktieren, werden Ihre Angaben inklusive der von Ihnen dort 
-                angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen 
-                bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
+                When you contact us by email, your information including the contact details you 
+                provided will be stored for the purpose of processing the inquiry and for possible 
+                follow-up questions. We do not share this data without your consent.
               </p>
             </section>
 
@@ -106,73 +106,70 @@ const Datenschutz = () => {
                 4. Cookies
               </h2>
               <p>
-                Unsere Website verwendet Cookies. Das sind kleine Textdateien, die Ihr Webbrowser auf Ihrem 
-                Endgerät speichert. Cookies helfen uns dabei, unser Angebot nutzerfreundlicher, effektiver 
-                und sicherer zu machen.
+                Our website uses cookies. These are small text files that your web browser stores on 
+                your device. Cookies help us make our offering more user-friendly, effective, 
+                and secure.
               </p>
               <p className="mt-2">
-                Einige Cookies sind "Session-Cookies." Solche Cookies werden nach Ende Ihrer Browser-Sitzung 
-                von selbst gelöscht. Hingegen bleiben andere Cookies auf Ihrem Endgerät bestehen, bis Sie 
-                diese selbst löschen. Solche Cookies helfen uns, Sie bei Rückkehr auf unserer Website 
-                wiederzuerkennen.
+                Some cookies are "session cookies." Such cookies are automatically deleted after your 
+                browser session ends. Other cookies remain on your device until you delete them 
+                yourself. These cookies help us recognize you when you return to our website.
               </p>
             </section>
 
-            {/* Rechte */}
+            {/* Rights */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                5. Ihre Rechte
+                5. Your Rights
               </h2>
-              <p>Sie haben jederzeit das Recht:</p>
+              <p>You have the right at any time to:</p>
               <ul className="list-disc pl-6 mt-2 space-y-1">
-                <li>Auskunft über Ihre bei uns gespeicherten Daten zu erhalten (Art. 15 DSGVO)</li>
-                <li>Berichtigung unrichtiger Daten zu verlangen (Art. 16 DSGVO)</li>
-                <li>Löschung Ihrer Daten zu verlangen (Art. 17 DSGVO)</li>
-                <li>Einschränkung der Verarbeitung zu verlangen (Art. 18 DSGVO)</li>
-                <li>Datenübertragbarkeit zu verlangen (Art. 20 DSGVO)</li>
-                <li>Der Verarbeitung zu widersprechen (Art. 21 DSGVO)</li>
-                <li>Eine erteilte Einwilligung zu widerrufen (Art. 7 Abs. 3 DSGVO)</li>
+                <li>Obtain information about your data stored with us (Art. 15 GDPR)</li>
+                <li>Request correction of inaccurate data (Art. 16 GDPR)</li>
+                <li>Request deletion of your data (Art. 17 GDPR)</li>
+                <li>Request restriction of processing (Art. 18 GDPR)</li>
+                <li>Request data portability (Art. 20 GDPR)</li>
+                <li>Object to processing (Art. 21 GDPR)</li>
+                <li>Withdraw consent given (Art. 7(3) GDPR)</li>
               </ul>
             </section>
 
-            {/* Beschwerderecht */}
+            {/* Complaints */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                6. Beschwerderecht bei der Aufsichtsbehörde
+                6. Right to Complain to Supervisory Authority
               </h2>
               <p>
-                Sollten Sie der Ansicht sein, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht 
-                verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, 
-                können Sie sich bei der Aufsichtsbehörde beschweren. In Hessen ist dies der Hessische 
-                Beauftragte für Datenschutz und Informationsfreiheit.
+                If you believe that the processing of your data violates data protection law or your 
+                data protection rights have been violated in any other way, you can complain to the 
+                supervisory authority. In Hesse, this is the Hessian Data Protection Commissioner.
               </p>
             </section>
 
             {/* SSL */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                7. SSL-Verschlüsselung
+                7. SSL Encryption
               </h2>
               <p>
-                Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher 
-                Inhalte eine SSL-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, 
-                dass die Adresszeile des Browsers von "http://" auf "https://" wechselt und an dem 
-                Schloss-Symbol in Ihrer Browserzeile.
+                This site uses SSL encryption for security reasons and to protect the transmission of 
+                confidential content. You can recognize an encrypted connection by the browser's 
+                address bar changing from "http://" to "https://" and by the lock icon in your 
+                browser bar.
               </p>
             </section>
 
-            {/* Aktualität */}
+            {/* Updates */}
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mb-4">
-                8. Aktualität und Änderung dieser Datenschutzerklärung
+                8. Updates to This Privacy Policy
               </h2>
               <p>
-                Diese Datenschutzerklärung ist aktuell gültig und hat den Stand Dezember 2024.
+                This privacy policy is currently valid as of December 2024.
               </p>
               <p className="mt-2">
-                Durch die Weiterentwicklung unserer Website oder aufgrund geänderter gesetzlicher 
-                beziehungsweise behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung 
-                zu ändern.
+                Due to the further development of our website or due to changed legal or official 
+                requirements, it may become necessary to change this privacy policy.
               </p>
             </section>
           </div>
@@ -184,4 +181,4 @@ const Datenschutz = () => {
   );
 };
 
-export default Datenschutz;
+export default Privacy;
