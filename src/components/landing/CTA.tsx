@@ -20,7 +20,7 @@ const CTA = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button variant="hero" size="xl" className="group w-full sm:w-auto" asChild>
-                <a href="https://web.metanetwork.agency" target="_blank" rel="noopener noreferrer">
+                <a href="https://web.metanetworkagency.com" target="_blank" rel="noopener noreferrer">
                   Register for free
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </a>

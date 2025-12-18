@@ -26,7 +26,7 @@ const Header = () => {
           >
             <img 
               src={MetaNetworkLogo} 
-              alt="MetaNetwork.Agency" 
+              alt="metanetworkagency.com" 
               className="h-8 w-auto object-contain shrink-0"
             />
           </button>
@@ -38,7 +38,7 @@ const Header = () => {
           >
             <img 
               src={MetaNetworkLogo} 
-              alt="MetaNetwork.Agency" 
+              alt="metanetworkagency.com" 
               className="h-7 w-auto object-contain shrink-0"
             />
           </button>
@@ -62,12 +62,12 @@ const Header = () => {
           {/* Desktop CTA + Mobile Menu */}
           <div className="flex items-center gap-3">
             <Button variant="ghost" size="sm" className="hidden md:inline-flex text-slate-400 hover:text-white hover:bg-slate-800/50" asChild>
-              <a href="https://web.metanetwork.agency" target="_blank" rel="noopener noreferrer">
+              <a href="https://web.metanetworkagency.com" target="_blank" rel="noopener noreferrer">
                 Login
               </a>
             </Button>
             <Button variant="hero" size="sm" className="hidden sm:inline-flex group" asChild>
-              <a href="https://web.metanetwork.agency" target="_blank" rel="noopener noreferrer">
+              <a href="https://web.metanetworkagency.com" target="_blank" rel="noopener noreferrer">
                 Get Started
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
               </a>
@@ -86,7 +86,7 @@ const Header = () => {
                   <div className="flex items-center justify-between p-4 border-b border-slate-800">
                     <img 
                       src={MetaNetworkLogo} 
-                      alt="MetaNetwork.Agency" 
+                      alt="metanetworkagency.com" 
                       className="h-6 w-auto object-contain shrink-0"
                     />
                   </div>
@@ -110,12 +110,12 @@ const Header = () => {
                   {/* Mobile CTA */}
                   <div className="p-4 border-t border-slate-800 space-y-3">
                     <Button variant="ghost" className="w-full text-slate-400 hover:text-white hover:bg-slate-800/50" asChild>
-                      <a href="https://web.metanetwork.agency" target="_blank" rel="noopener noreferrer">
+                      <a href="https://web.metanetworkagency.com" target="_blank" rel="noopener noreferrer">
                         Login
                       </a>
                     </Button>
                     <Button variant="hero" className="w-full group" asChild>
-                      <a href="https://web.metanetwork.agency" target="_blank" rel="noopener noreferrer">
+                      <a href="https://web.metanetworkagency.com" target="_blank" rel="noopener noreferrer">
                         Get Started
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                       </a>

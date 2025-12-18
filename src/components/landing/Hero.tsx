@@ -116,7 +116,7 @@ const Hero = () => {
                       <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-yellow-500/80" />
                       <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-green-500/80" />
                     </div>
-                    <span className="text-[10px] sm:text-xs font-medium text-slate-400">MetaNetwork Dashboard</span>
+                    <span className="text-[10px] sm:text-xs font-medium text-slate-400">metanetworkagency.com Dashboard</span>
                     <img src={metaIcon} alt="Meta" className="h-3 sm:h-4 w-auto" />
                   </div>
 

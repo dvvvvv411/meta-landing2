@@ -13,7 +13,7 @@ const LegalNotice = () => {
           <Link to="/" className="flex items-center">
             <img 
               src={MetaNetworkLogo} 
-              alt="MetaNetwork.Agency" 
+              alt="metanetworkagency.com" 
               className="h-8 w-auto"
             />
           </Link>
@@ -59,14 +59,14 @@ const LegalNotice = () => {
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center gap-2">
                   <Globe className="h-4 w-4" />
-                  <a href="https://metanetwork.agency" className="hover:text-foreground transition-colors">
-                    metanetwork.agency
+                  <a href="https://metanetworkagency.com" className="hover:text-foreground transition-colors">
+                    metanetworkagency.com
                   </a>
                 </p>
                 <p className="flex items-center gap-2">
                   <Mail className="h-4 w-4" />
-                  <a href="mailto:info@metanetwork.agency" className="hover:text-foreground transition-colors">
-                    info@metanetwork.agency
+                  <a href="mailto:info@metanetworkagency.com" className="hover:text-foreground transition-colors">
+                    info@metanetworkagency.com
                   </a>
                 </p>
               </div>

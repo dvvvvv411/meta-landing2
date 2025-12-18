@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     question: "Are there spending limits?",
-    answer: "No, with MetaNetwork Agency Accounts there are no artificial spending limits. You can scale your budget flexibly without hitting restrictions that are common with normal accounts.",
+    answer: "No, with metanetworkagency.com Agency Accounts there are no artificial spending limits. You can scale your budget flexibly without hitting restrictions that are common with normal accounts.",
   },
   {
     question: "How secure are the accounts?",
@@ -51,7 +51,7 @@ const FAQ = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-muted-foreground">
-            Everything you need to know about MetaNetwork.
+            Everything you need to know about metanetworkagency.com.
           </p>
         </div>
 

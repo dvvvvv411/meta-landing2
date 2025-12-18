@@ -13,7 +13,7 @@ const Terms = () => {
           <Link to="/" className="flex items-center">
             <img 
               src={MetaNetworkLogo} 
-              alt="MetaNetwork.Agency" 
+              alt="metanetworkagency.com" 
               className="h-8 w-auto"
             />
           </Link>
@@ -47,7 +47,7 @@ const Terms = () => {
               <p>
                 (1) These General Terms and Conditions (hereinafter "GTC") apply to all contracts 
                 between Victu Agency GmbH, Karlstr. 17, 60329 Frankfurt am Main (hereinafter "Provider") 
-                and the customer (hereinafter "Customer") regarding the use of the MetaNetwork.Agency platform.
+                and the customer (hereinafter "Customer") regarding the use of the metanetworkagency.com platform.
               </p>
               <p className="mt-2">
                 (2) Deviating, conflicting, or supplementary GTC of the Customer shall only become part 
@@ -63,7 +63,7 @@ const Terms = () => {
               </h2>
               <p>
                 (1) The Provider provides the Customer with verified Meta Agency Accounts for advertising 
-                purposes via the MetaNetwork.Agency platform.
+                purposes via the metanetworkagency.com platform.
               </p>
               <p className="mt-2">
                 (2) The Customer receives access to an automated dashboard for managing their 
