@@ -133,7 +133,7 @@ const Hero = () => {
                     {/* 4-Column Metrics Grid - 2x2 on mobile */}
                     <div className="grid grid-cols-2 gap-2 sm:gap-3 mb-3 sm:mb-4">
                       {[
-                        { label: "Ad Spend", value: "€47,892", trend: "+12.5%", positive: true },
+                        { label: "Ad Spend", value: "$47,892", trend: "+12.5%", positive: true },
                         { label: "ROAS", value: "4.2x", trend: "+0.8x", positive: true },
                         { label: "Conversions", value: "1,247", trend: "+18%", positive: true },
                         { label: "CTR", value: "3.8%", trend: "+0.4%", positive: true },
@@ -156,7 +156,7 @@ const Hero = () => {
                     <div className="hidden sm:block p-3 sm:p-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 mb-3 sm:mb-4">
                       <div className="flex items-center justify-between mb-2 sm:mb-3">
                         <span className="text-[10px] sm:text-xs font-medium text-slate-400">Performance (7 Days)</span>
-                        <span className="text-[9px] sm:text-[10px] text-slate-500">€67,420 Total</span>
+                        <span className="text-[9px] sm:text-[10px] text-slate-500">$67,420 Total</span>
                       </div>
                       <div className="h-16 sm:h-24 flex items-end justify-between gap-1 sm:gap-2">
                         {[
@@ -226,7 +226,7 @@ const Hero = () => {
                     <div className="p-2 sm:p-3 rounded-lg sm:rounded-xl bg-white/5 backdrop-blur-sm border border-white/10">
                       <div className="flex items-center justify-between mb-1.5 sm:mb-2">
                         <span className="text-[9px] sm:text-[10px] text-slate-500 uppercase tracking-wider">Spend Limit</span>
-                        <span className="text-[9px] sm:text-[10px] text-slate-400">€78,500 / €100,000</span>
+                        <span className="text-[9px] sm:text-[10px] text-slate-400">$78,500 / $100,000</span>
                       </div>
                       <div className="h-1.5 sm:h-2 rounded-full bg-white/10 overflow-hidden">
                         <div 
