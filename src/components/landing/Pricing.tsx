@@ -84,7 +84,7 @@ const Pricing = () => {
                   {/* Price */}
                   <div className="mb-6">
                     <div className="flex items-baseline gap-2">
-                      <span className="font-display text-5xl lg:text-6xl font-bold text-foreground">€150</span>
+                      <span className="font-display text-5xl lg:text-6xl font-bold text-foreground">$59</span>
                       <span className="text-xl text-muted-foreground">/month</span>
                     </div>
                     <p className="text-muted-foreground mt-2">

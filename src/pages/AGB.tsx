@@ -104,7 +104,7 @@ const Terms = () => {
                 prices are net prices plus statutory VAT.
               </p>
               <p className="mt-2">
-                (2) The monthly base fee is €150 net. Additionally, a top-up fee of 
+                (2) The monthly base fee is $59 net. Additionally, a top-up fee of 
                 2% applies to all advertising budget top-ups.
               </p>
               <p className="mt-2">

@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: "How does payment work?",
-    answer: "You pay a monthly base fee of €150 plus a 2% fee on your top-ups. The funds are loaded directly to your account and can be used for Meta Ads. We accept all common payment methods.",
+    answer: "You pay a monthly base fee of $59 plus a 2% fee on your top-ups. The funds are loaded directly to your account and can be used for Meta Ads. We accept all common payment methods.",
   },
   {
     question: "Are there spending limits?",

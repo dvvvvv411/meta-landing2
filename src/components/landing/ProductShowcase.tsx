@@ -116,7 +116,7 @@ const ProductShowcase = () => {
               </div>
               <div className="flex items-center gap-3">
                 <AlertCircle className="w-5 h-5 text-yellow-500" />
-                <span className="text-sm text-foreground">Balance: €2,450 remaining</span>
+                <span className="text-sm text-foreground">Balance: $2,450 remaining</span>
               </div>
             </div>
           </div>
@@ -131,7 +131,7 @@ const ProductShowcase = () => {
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="p-4 rounded-xl bg-background/50 border border-border/30 text-center">
-                <p className="text-2xl font-display font-bold text-foreground">€12.4k</p>
+                <p className="text-2xl font-display font-bold text-foreground">$12.4k</p>
                 <p className="text-xs text-muted-foreground">Spent Today</p>
               </div>
               <div className="p-4 rounded-xl bg-background/50 border border-border/30 text-center">
@@ -143,7 +143,7 @@ const ProductShowcase = () => {
                 <p className="text-xs text-muted-foreground">Conversions Today</p>
               </div>
               <div className="p-4 rounded-xl bg-background/50 border border-border/30 text-center">
-                <p className="text-2xl font-display font-bold text-foreground">€14.62</p>
+                <p className="text-2xl font-display font-bold text-foreground">$14.62</p>
                 <p className="text-xs text-muted-foreground">CPA</p>
               </div>
             </div>
